@@ -1,0 +1,101 @@
+#hero-sec {
+  width: 90%;
+  background: #6441a5;
+  background: linear-gradient(to right bottom, #2a084596, #6441a596, #ca43fb82);
+  padding: 6rem 2rem;
+  color: #fff;
+  border-radius: 20px;
+}
+
+#search {
+  padding: 1.5rem;
+}
+
+#search-icon {
+  background-image: url('../multimedia/search-icon.png');
+  background-size: cover;
+}
+
+#search input {
+  background-color: transparent;
+  border: 2px solid #6441a5;
+  outline: #d04379;
+  padding: 1rem;
+  color: #6441a5;
+  border-radius: 180px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.characters-section {
+  background-color: white;
+  height: 100vh;
+}
+
+.marvel-characters-title {
+  background-color: #fd5294;
+  width: 100%;
+  aspect-ratio: 2 / 1;
+  display: flex;
+}
+
+.marvel-characters-image {
+  width: calc(100% / 2);
+  aspect-ratio: 1 / 1;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.marvel-characters-text {
+  width: calc(100% / 2);
+  aspect-ratio: 1 / 1;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.collections-cont {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 3rem;
+}
+
+.collections-cont h2 {
+  width: 100%;
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+#collections {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.individual-characters-title {
+  width: 100%;
+  background-color: #dc4782;
+  color: white;
+}
+
+.individual-character {
+  background-color: #9f75d8;
+  width: calc(100% / 2);
+  aspect-ratio: 1 / 1;
+  padding: 30px;
+}
+
+.individual-character:nth-child(1),
+.individual-character:nth-child(4),
+.individual-character:nth-child(5) {
+  background-color: #6c34b8;
+}
