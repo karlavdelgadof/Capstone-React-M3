@@ -5,16 +5,19 @@ import PropTypes from 'prop-types';
 const SingleCollection = (props) => {
   const { collection } = props;
   // const dispatch = useDispatch();
-
+  // console.log('SingleCollection',collection)
   // const handleClick = (e) => {
   //   dispatch(joinMissions({ id: e.target.id }));
   // };
 
   return (
-    <li>
-      <img src={collection.src}/>
-      <span>{collection.name}</span>
-    </li>
+    <div>
+      <div className="collection-img">
+        <img src={collection.src ? collection.src : '../multimedia/default-image.jpg'}/>
+      </div>
+      
+      <span className='single-collection-title'>{collection.name}</span>
+    </div>
   );
 };
 
