@@ -18,11 +18,6 @@ const Navbar = () => {
             {location.pathname === '/' ? 'Home' : 'Go Back'}
           </NavLink>
         </li>
-        <li>
-          <NavLink to="Collections" id="collections">
-            Collections
-          </NavLink>
-        </li>
       </ul>
     </nav>
   );
