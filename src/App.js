@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
+import CoinDetails from './pages/CoinDetails';
 import Footer from './components/Footer';
-import Home from './components/Home';
+import Home from './pages/Home';
 import Navbar from './components/Navbar';
-import Collections from './pages/Collections';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="Collections" element={<Collections />} />
+        <Route path="/details" element={<CoinDetails />} />
       </Routes>
       <Footer />
     </>

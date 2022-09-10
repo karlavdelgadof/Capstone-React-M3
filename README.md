@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
+![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
+![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 
-## Available Scripts
+# Mintok Crypto Market App :coin: :bar_chart:
 
-In the project directory, you can run:
+> Mintok is an SPA app built with React and Redux (Redux ToolKit) that provides market-based information and statistics about cryptocurrency.The application fetches the data about the coins from the [CoinLore API](https://www.coinlore.com/cryptocurrency-data-api) and allows users to check, discover and search (constantly-updated) statistics about the top 100 coins in the market.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Built With :hammer_and_wrench: 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **HTML/CSS & JS best practices:** Correct use of tags, elements, properties and syntax.
+- **GitHub flow:**  Correct use of Branches for deployment and features development.
+- **Linters Check:** Local and Pull Request check for errors, bugs and stylistic errors in code.
+- **Webpack:** Bundler form JavaScript files for usage in a browser.
+- **Jest:** JS testing framework used for the app testing.
+- **REACT JS:** JS library used for the basic structure (components).
+- **Redux/Redux Toolkit:** JS library used to handle the app state changes/updates.
+- **CoinLore API:** A free cryptocurrency api that provides updated data about more than 9393 coins, 400+ exchanges. .
 
-### `npm test`
+## Preview :eye_speech_bubble:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Mobile Version :iphone:
 
-### `npm run build`
+- **Home Page**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+![](screenshot-1.png)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Details Page**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](screenshot-2.png)
 
-### `npm run eject`
+### Desktop Version :desktop_computer:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **Home Page**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![](screenshot-1.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Details Page**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![](screenshot-2.png)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Live Demo :arrow_forward: :cd:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Link will be displayed here soon...
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Set Up Guide :page_facing_up: 
 
-### Analyzing the Bundle Size
+1. Use the following link for "$ git clone" the [repo](https://github.com/karlavdelgadof/Capstone-React-M3.git) and cd Capstone-React-M3
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+2. "npm install" to install all the dependencies
 
-### Making a Progressive Web App
+3. "npm start" to run the live version locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+4. "code ." To open the project on your local editor
 
-### Advanced Configuration
+5. Please click on the "access link" so you can check the live demo
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+6. You can use the Mintok App to check and search coins with their respective statistic/info :bar_chart: :coin:
 
-### Deployment
+## Authors :writing_hand: :busts_in_silhouette:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+:woman_technologist:  **Karla Delgado** :writing_hand: 
 
-### `npm run build` fails to minify
+- GitHub: [@karlavdelgadof](https://github.com/karlavdelgadof)
+- Twitter: [@karlavdelgadof](https://twitter.com/karlavdelgadof)
+- LinkedIn: [Karla Delgado](https://www.linkedin.com/in/karla-delgado-613a32239/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Acknowledgments :star2:
+
+- Original design idea by [Nelson Sakwa](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)) on Behance.
+- [Coinlore API](https://www.coinlore.com/cryptocurrency-data-api) for app data.
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.

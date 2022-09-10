@@ -15,12 +15,7 @@ const Navbar = () => {
       <ul id="nav-links">
         <li>
           <NavLink to="/" id="home">
-            {location.pathname === '/' ? 'Home' : 'Go Back'}
-          </NavLink>
-        </li>
-        <li>
-          <NavLink to="Collections" id="collections">
-            Collections
+            {location.pathname === '/' ? 'Coins' : 'Go Back'}
           </NavLink>
         </li>
       </ul>
