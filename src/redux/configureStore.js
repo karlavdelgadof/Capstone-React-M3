@@ -1,12 +1,12 @@
 import { configureStore } from '@reduxjs/toolkit';
-import collectionsReducer from './Collections/collections';
 import logger from 'redux-logger';
+import coinsReducer from './Coins/coins';
 
 const store = configureStore({
   reducer: {
-    collections: collectionsReducer,
+    coins: coinsReducer,
   },
-  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger), 
+  middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(logger),
 });
 
 export default store;
