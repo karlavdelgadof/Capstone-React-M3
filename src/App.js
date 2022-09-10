@@ -1,7 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
-import CollectionDetails from './components/CollectionDetails';
+import CollectionDetails from './pages/CollectionDetails';
 import Footer from './components/Footer';
-import Home from './components/Home';
+import Home from './pages/Home';
 import Navbar from './components/Navbar';
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        {/* <Route path="/:id" element={<CollectionDetails />} /> */}
+        <Route path="/details" element={<CollectionDetails />} />
       </Routes>
       <Footer />
     </>
