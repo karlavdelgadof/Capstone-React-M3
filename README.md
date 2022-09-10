@@ -5,6 +5,7 @@
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
 ![Webpack](https://img.shields.io/badge/webpack-%238DD6F9.svg?style=for-the-badge&logo=webpack&logoColor=black)
 ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
 
 # Mintok Crypto Market App :coin: :bar_chart:
 
@@ -28,21 +29,21 @@
 
 - **Home Page**
 
-![](screenshot-1.png)
+![](ss-mob-1.png)
 
 - **Details Page**
 
-![](screenshot-2.png)
+![](ss-mob-2.png)
 
 ### Desktop Version :desktop_computer:
 
 - **Home Page**
 
-![](screenshot-1.png)
+![](ss-desktop-1.png)
 
 - **Details Page**
 
-![](screenshot-2.png)
+![](ss-desktop-2.png)
 
 
 ## Live Demo :arrow_forward: :cd:
