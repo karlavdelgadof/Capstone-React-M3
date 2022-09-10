@@ -48,7 +48,7 @@
 
 ## Live Demo :arrow_forward: :cd:
 
-Link will be displayed here soon...
+[Mintok Crypto App :coin: :bar_chart:](https://mintok-kd.netlify.app)
 
 
 ## Set Up Guide :page_facing_up: 
