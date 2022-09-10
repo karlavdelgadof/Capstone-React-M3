@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#search {
+  background-color: transparent;
+  border: 2px solid #6441a5;
+  outline: #d04379;
+  padding: 1rem;
+  color: #6441a5;
+  border-radius: 180px;
+  display: flex;
+  margin: 2.2rem;
+}
+
+#search input {
+  background: none;
+  outline: none;
+  border: none;
+  padding-left: 1rem;
+  color: #fff;
+  font-family: inherit;
+}
+
+#search input::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  content: url("../multimedia/cancel-btn-icon.png");
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #6441a5;
+}
+
+::placeholder {
+  color: #6441a5;
+}
+
+.coins-cont {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-bottom: 3rem;
+}
+
+.coins-cont h2 {
+  color: #ca43fb;
+  font-size: 1.2rem;
+}
+
+.colleections-container-title {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+#collections {
+  display: grid;
+  grid-template-columns: 45% 45%;
+  gap: 1.5rem;
+}
+
+.single-collection-title {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  color: white;
+  font-weight: 600;
+  min-height: 85px;
+  text-shadow: 0 0 5px black;
+}
+
+.single-collection {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  background-image: url("../multimedia/animated-coin_AdobeExpress.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  border-radius: 45px;
+  aspect-ratio: 1 / 1;
+  color: white;
+  padding: 15px;
+}
+
+.rank-stats {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.stats-icon {
+  filter:
+    invert(48%) sepia(98%) saturate(1989%) hue-rotate(160deg)
+    brightness(93%) contrast(101%);
+}
+
+.collections-spans {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+#section-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 1.5rem;
+}
+
+@media all and (min-width: 768px) {
+  #collections {
+    grid-template-columns: repeat(4, 22.5%);
+    align-self: center;
+    gap: 2rem;
+  }
+
+  .single-collection {
+    justify-content: center;
+    font-size: 1.2rem;
+  }
+}
