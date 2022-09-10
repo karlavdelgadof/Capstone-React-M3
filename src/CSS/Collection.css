@@ -4,67 +4,88 @@
   box-sizing: border-box;
 }
 
-.comics-section {
-  background-color: white;
-  height: 100vh;
+.coins-info {
+  width: 90%;
+  margin-bottom: 2rem;
 }
 
-.marvel-comics-title {
-  background-color: #6580fa;
+.coin-bg {
+  background-image: url('../multimedia/animated-coin_AdobeExpress.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100%;
+  padding: 7rem;
+  border-radius: 30px;
   aspect-ratio: 2 / 1;
-  display: flex;
 }
 
-.marvel-comics-image {
-  width: calc(100% / 2);
-  aspect-ratio: 1 / 1;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.marvel-comics-text {
-  width: calc(100% / 2);
-  aspect-ratio: 1 / 1;
-  padding: 30px;
+.coin-text {
+  padding: 1.5rem 1rem;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   justify-content: center;
+  color: #fff;
+  gap: 1rem;
 }
 
-.marvel-comics-text p {
-  text-align: right;
+.coin-name,
+.coin-m-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #7f48cb;
 }
 
-.character-comics-title {
-  background-color: #fd5294;
-  width: 100%;
-  aspect-ratio: 2 / 1;
-  padding: 30px;
+.coin-m-stats {
+  color: #fff;
 }
 
-.character-comic {
+.price {
+  font-size: 1.5rem;
+  color: #74fb43;
+  padding-top: 1.2rem;
+}
+
+.stats-t {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.2rem;
+}
+
+.stats-container {
   display: flex;
   flex-wrap: wrap;
+  border-radius: 50px;
+  color: #fff;
 }
 
-.comics-title {
+.stats-title {
   width: 100%;
-  background-color: #d04379;
-  color: white;
-  padding: 0 30px;
+  color: #ca43fb;
+  text-align: center;
+  font-size: 1.5rem;
+  letter-spacing: 0.2rem;
+  font-weight: 600;
+  padding: 1rem;
 }
 
-.character-status {
-  background-color: #d04379;
+.stats-data {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(90deg, #7638c794, #b594e17a);
   width: 100%;
   aspect-ratio: 4 / 1;
-  padding: 30px;
+  padding: 2.2rem 1rem;
+  border-radius: 20px;
 }
 
-.character-status:nth-child(even) {
-  background-color: #dc4782;
+.stat-item span {
+  font-weight: 600;
 }
