@@ -15,7 +15,7 @@ const Navbar = () => {
       <ul id="nav-links">
         <li>
           <NavLink to="/" id="home">
-            {location.pathname === '/' ? 'Home' : 'Go Back'}
+            {location.pathname === '/' ? 'Coins' : 'Go Back'}
           </NavLink>
         </li>
       </ul>

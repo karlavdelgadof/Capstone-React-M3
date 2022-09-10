@@ -16,71 +16,24 @@
   box-sizing: border-box;
 }
 
-.characters-section {
-  background-color: white;
-  height: 100vh;
-}
-
-.marvel-characters-title {
-  background-color: #fd5294;
-  width: 100%;
-  aspect-ratio: 2 / 1;
-  display: flex;
-}
-
-.marvel-characters-image {
-  width: calc(100% / 2);
-  aspect-ratio: 1 / 1;
-  padding: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.marvel-characters-text {
-  width: calc(100% / 2);
-  aspect-ratio: 1 / 1;
-  padding: 30px;
+#hero-txt {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   justify-content: center;
+  gap: 1.5rem;
 }
 
-.collections-cont {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  margin-bottom: 3rem;
-}
+@media all and (min-width: 768px) {
+  #hero-sec {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 
-.collections-cont h2 {
-  width: 100%;
-  color: white;
-  padding: 1.5rem 0;
-  text-align: center;
-}
+  #hero-txt h2 {
+    font-size: 1.5rem;
+  }
 
-#collections {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.individual-characters-title {
-  width: 100%;
-  background-color: #dc4782;
-  color: white;
-}
-
-.individual-character {
-  background-color: #9f75d8;
-  width: calc(100% / 2);
-  aspect-ratio: 1 / 1;
-  padding: 30px;
-}
-
-.individual-character:nth-child(1),
-.individual-character:nth-child(4),
-.individual-character:nth-child(5) {
-  background-color: #6c34b8;
+  #hero-img img {
+    width: 80%;
+  }
 }
