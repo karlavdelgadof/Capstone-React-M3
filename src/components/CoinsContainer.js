@@ -6,15 +6,15 @@ import SingleCoin from './SingleCoin';
 import '../CSS/Coins.css';
 import searchIcon from '../multimedia/search-icon.png';
 
-const CollectionsContainer = () => {
+const CoinsContainer = () => {
   const coins = useSelector((state) => state.coins);
   const [search, setSearch] = useState('');
   const dispatch = useDispatch();
   useEffect(() => {
-    if (!coins.length) {
+    if (coins.length === 0) {
       dispatch(getCoins());
     }
-  }, []);/* eslint-disable-line react-hooks/exhaustive-deps */
+  });
 
   const filtered = coins.filter(
     (coin) => !search || new RegExp(search, 'ig').test(coin.name),
@@ -52,4 +52,4 @@ const CollectionsContainer = () => {
   );
 };
 
-export default CollectionsContainer;
+export default CoinsContainer;
