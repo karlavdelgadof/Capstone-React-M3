@@ -2,7 +2,7 @@ import React from 'react';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 import { render, screen } from '@testing-library/react';
-import '@testing-library/jest-dom'
+import '@testing-library/jest-dom';
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import App from '../App';
@@ -30,9 +30,7 @@ const data = [
 ];
 
 const handlers = [
-  rest.get('https://api.coinlore.net/api/tickers/?start=100&limit=100', (req, res, ctx) =>
-    res(ctx.json({ data })),
-  ),
+  rest.get('https://api.coinlore.net/api/tickers/?start=100&limit=100', (req, res, ctx) => res(ctx.json({ data }))),
 ];
 const server = setupServer(...handlers);
 

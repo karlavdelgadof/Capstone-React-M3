@@ -41,5 +41,5 @@ describe('Coins test', () => {
       </React.StrictMode>,
     );
     expect(tree).toMatchSnapshot();
-  })
+  });
 });

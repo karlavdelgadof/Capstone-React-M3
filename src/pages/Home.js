@@ -1,7 +1,7 @@
-import React from "react";
-import "../CSS/Home.css";
-import CoinsContainer from "../components/CoinsContainer";
-import heroIllustration from "../multimedia/home-illustration.svg";
+import React from 'react';
+import '../CSS/Home.css';
+import CoinsContainer from '../components/CoinsContainer';
+import heroIllustration from '../multimedia/home-illustration.svg';
 
 const Home = () => (
   <>
