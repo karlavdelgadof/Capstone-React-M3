@@ -1,4 +1,3 @@
-/* eslint-disable-line react-hooks/exhaustive-deps */
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
@@ -15,7 +14,7 @@ const CollectionsContainer = () => {
     if (!coins.length) {
       dispatch(getCoins());
     }
-  }, []);
+  }, []);/* eslint-disable-line react-hooks/exhaustive-deps */
 
   const filtered = coins.filter(
     (coin) => !search || new RegExp(search, 'ig').test(coin.name),
